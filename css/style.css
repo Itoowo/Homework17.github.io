@@ -1,0 +1,59 @@
+.navbar{
+    background-color: rgb(34, 34, 34);
+}
+.carousel-item{
+    margin-top: 50px;
+}
+.shape{
+    width: 100%;
+    height: 100px;
+}
+.shapes{
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+    color: gray;
+}
+.shapes h1{
+    font-size: 20px;
+    margin: 0;
+}
+@media (max-width: 1000px){
+    .navbar .container-lg{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-nav{
+        margin-top: 10px;
+    }
+    .navbar{
+        --bs-navbar-padding-x: 0;
+        --bs-navbar-padding-y: 0.5rem;
+    }
+    .nav-link{
+        padding-left: 15px !important;
+    }
+    .navbar-brand{
+        padding-left: 15px !important;
+    }
+    .form-control:first-child{
+        max-width: 1000px !important;
+        margin-left: 15px;
+
+    }
+    .form-control:last-child{
+        width: 100px !important;
+        margin-right: 15px;
+    }
+
+    .container.carousel{
+        height: 400px !important;
+    }
+    .carousel-item{
+        margin-top: 0;
+        height: 300px !important;
+    }
+    .col-lg-4:nth-child(2){
+        margin: 20px 0 !important;
+    }
+}
